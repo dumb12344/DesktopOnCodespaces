@@ -20,7 +20,7 @@ def environmentconversion(env):
     return "LXQT"
   else:
     return env
-defaultjson = {"defaultapps": [], "programming": [], "apps": [], "enablekvm": true, "DE": "KDE Plasma (Heavy)"}
+defaultjson = {"defaultapps": [], "programming": [], "apps": [], "enablekvm": True, "DE": "KDE Plasma (Heavy)"}
 data = defaultjson
 wine = input("Do you want to install wine? (Y/n)")
 brave = input("Do you want to install brave? (Y/n)")
