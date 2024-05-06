@@ -1,8 +1,8 @@
 git clone https://github.com/3kh0/DesktopOnCodespaces
 cd DesktopOnCodespaces
 #pip install textual
-#sleep 2
-#python3 installer.py
+sleep 2
+python3 installer.py
 docker build -t desktoponcodespaces . --no-cache
 cd ..
 
