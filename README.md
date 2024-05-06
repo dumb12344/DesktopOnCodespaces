@@ -41,7 +41,6 @@ chmod +x install.sh
 ```
 
 Alpine:
-ust copy and paste this command in your codespace terminal
 ```
 curl -O https://raw.githubusercontent.com/dumb12344/DesktopOnCodespaces/main/installalpine.sh
 chmod +x installalpine.sh
