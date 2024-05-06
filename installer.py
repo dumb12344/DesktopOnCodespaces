@@ -6,17 +6,17 @@ def savejson(json):
     with open('options.json', 'w') as f:
         f.write(str(json).replace("'", '"').replace("True", "true").replace("False", "false"))
 def environmentconversion(env):
-  if env = "0":
+  if env == "0":
     return "KDE Plasma (Heavy)"
-  elif env = "1":
+  elif env == "1":
     return "XFCE4 (Lightweight)"
-  elif env = "2":
+  elif env == "2":
     return "I3 (Very Lightweight)"
-  elif env = "3":
+  elif env == "3":
     return "GNOME 42 (Very Heavy)"
-  elif env = "4":
+  elif env == "4":
     return "Cinnamon"
-  elif env = "5":
+  elif env == "5":
     return "LXQT"
   else:
     return env
@@ -25,11 +25,11 @@ data = defaultjson
 wine = input("Do you want to install wine? (Y/n)")
 brave = input("Do you want to install brave? (Y/n)")
 xarchiver = input("Do you want to install Xarchiver? (Y/n)")
-if not wine = "n":
+if not wine == "n":
   data["defaultapps"].append(0)
-if not brave = "n":
+if not brave == "n":
   data["defaultapps"].append(1)
-if not xarchiver = "n":
+if not xarchiver == "n":
   data["defaultapps"].append(2)
 environment = input("""
 Which environment do you want:
