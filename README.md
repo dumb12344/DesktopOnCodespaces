@@ -6,6 +6,8 @@
 
 > This project is only officially supported on Github codespaces; any other similar services may not work properly, like GitPod. Please do not open issues about X things not working on services that are not github codespaces. (this still should work on personal vps with docker, but no support will be provided)
 
+![Repo size](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fdumb12344%2FDesktopOnCodespaces&query=size&suffix=MB&label=Repo%20size)
+
 # Supported Stuff
 
 * 1080p 60fps (theroricaly)
